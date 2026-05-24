@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Auxiliares de análise local — nunca comitar
+_extract/
+_temp/
+*.zip.extracted/
