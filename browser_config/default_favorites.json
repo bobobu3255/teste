@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-05-14T17:55:13.860389",
+  "favorites": [
+    {
+      "id": "builtin_anime",
+      "name": "anime",
+      "url": "https://sso.crunchyroll.com/pt-br/register?return_url=%2Fauthorize%3Fclient_id%3Dkmj7imhjt_q90lcbzzsj%26redirect_uri%3Dhttps%253A%252F%252Fcrunchyroll.com%252Fpremium%252Fredirects%26response_type%3Dcookie%26state%3Dis_skip_freetrial%253Dtrue%2526ref%253Dnewweb_organic_header%2526return_url%253Dhttps%25253A%25252F%25252Fwww.crunchyroll.com%25252Fpt-br%25252Fvideos%25252Fpopular%2526search%253D%2525253Freferrer%2525253Dnewweb_organic_header%25252526return_url%2525253Dhttps%252525253A%252525252F%252525252Fwww.crunchyroll.com%252525252Fpt-br%252525252Fvideos%252525252Fpopular%2526selected_sku%253Dcr_fan_pack.1_month",
+      "folder": "Barra de Favoritos",
+      "icon": "anime",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_anime_history",
+      "name": "anime hist.",
+      "url": "https://www.crunchyroll.com/payments/history",
+      "folder": "Barra de Favoritos",
+      "icon": "history",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_hbo",
+      "name": "hbo",
+      "url": "https://auth.hbomax.com/create-account?flow=purchase",
+      "folder": "Barra de Favoritos",
+      "icon": "hbo",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_outlook",
+      "name": "outlook",
+      "url": "https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=9199bf20-a13f-4107-85dc-02114787ef48&scope=https%3A%2F%2Foutlook.office.com%2F.default%20openid%20profile%20offline_access&redirect_uri=https%3A%2F%2Foutlook.live.com%2Fmail%2F&client-request-id=2d48915a-88a1-fcac-abdf-f89ee6aff401&response_mode=fragment&client_info=1&prompt=select_account&nonce=019b58d7-9ee5-7a69-abb5-44958cc4b3f7&state=eyJpZCI6IjAxOWI1OGQ3LTllZTUtN2JmNy1hMzgxLTQ5OTg0YTVjZTYwNCIsIm1ldGEiOnsiaW50ZXJhY3Rpb25UeXBlIjoicmVkaXJlY3QifX0%3D%7CaHR0cHM6Ly9vdXRsb29rLmxpdmUuY29tL21haWwvMC8_ZGVlcGxpbms9bWFpbCUyRjAlMkY&claims=%7B%22access_token%22%3A%7B%22xms_cc%22%3A%7B%22values%22%3A%5B%22CP1%22%5D%7D%7D%7D&x-client-SKU=msal.js.browser&x-client-VER=4.26.0&response_type=code&code_challenge=kayrA5bxYnQ2BtwV5SQTEOr7kGEqG3GvELq0RfQXLJ0&code_challenge_method=S256&cobrandid=ab0455a0-8d03-46b9-b18b-df2f57b9e44c&fl=dob,flname,wld",
+      "folder": "Barra de Favoritos",
+      "icon": "email",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_amazon",
+      "name": "amazon",
+      "url": "https://www.amazon.com.br/",
+      "folder": "Barra de Favoritos",
+      "icon": "amazon",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_paramount",
+      "name": "paramunt",
+      "url": "https://www.paramountplus.com/br/?ftag=PPM-02-10aeh6j",
+      "folder": "Barra de Favoritos",
+      "icon": "paramount",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_prime",
+      "name": "prime",
+      "url": "https://www.primevideo.com/-/pt/region/na/offers/nonprimehomepage/ref=dv_web_force_root?language=pt",
+      "folder": "Barra de Favoritos",
+      "icon": "prime",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_wallet",
+      "name": "wallet",
+      "url": "https://www.amazon.com.br/cpe/yourpayments/wallet?ref_=ya_d_c_pmt_mpo#",
+      "folder": "Barra de Favoritos",
+      "icon": "wallet",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_emailtm",
+      "name": "emailtm",
+      "url": "https://mail.tm/pt/",
+      "folder": "Barra de Favoritos",
+      "icon": "mail",
+      "added_at": "2026-05-09T02:09:12.669248",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_paramount_login",
+      "name": "paramunt login",
+      "url": "https://www.paramountplus.com/br/account/signin/",
+      "folder": "Barra de Favoritos",
+      "icon": "paramount",
+      "added_at": "2026-05-09T11:20:15.726610",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "builtin_paramount_plan",
+      "name": "paramunt plano",
+      "url": "https://www.paramountplus.com/br/account/signup/plan/",
+      "folder": "Barra de Favoritos",
+      "icon": "paramount",
+      "added_at": "2026-05-09T11:20:15.726610",
+      "updated_at": "2026-05-14T14:56:53.522416"
+    },
+    {
+      "id": "1785c394",
+      "name": "add cartao",
+      "url": "https://www.amazon.com.br/dppui/pay-select?clientId=yms&ref=atv_rmb_3ps_bp_redirect&collectShippingAddress=true&context=ProactiveFixup&transactionContext=Preference&variant=amazonchannels&preferenceType=Prime&ingressBusinessFlow=YMS&clientReference=prime&oL=pt_BR&destinationPath=%2Fhz5%2Fyourmembershipsandsubscriptions%2FPSPReturn%3Fflow%3D6%26redirectUrl%3Dhttps%253A%252F%252Fwww.primevideo.com%252Fsettings%252Fyour-account%253Fref%253Datv_set_ya_mem_yms_return%26clientId%3Dprimevideo%26serviceProviderId%3DAIVSUB_THIRDPARTY_BR%26language%3Dpt_BR%26variant%3Damazonchannels#",
+      "folder": "Fixados",
+      "icon": null,
+      "added_at": "2026-05-14T17:54:12.464886",
+      "updated_at": "2026-05-14T17:54:32.941709"
+    },
+    {
+      "id": "6c3a7368",
+      "name": "anime 4r",
+      "url": "https://sso.crunchyroll.com/pt-br/register?return_url=%2Fauthorize%3Fclient_id%3Dkmj7imhjt_q90lcbzzsj%26redirect_uri%3Dhttps%253A%252F%252Fwww.crunchyroll.com%252Fpremium%252Fredirects%26response_type%3Dcookie%26state%3Dactive_promo%253Dfalse%2526ref%253D%2526selected_promotion%253D1770%2526selected_sku%253Dcr_fan_pack.1_month",
+      "folder": "Barra de Favoritos",
+      "icon": null,
+      "added_at": "2026-05-14T17:55:13.860389"
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║           CRUNCHYROLL BOT v6.0 - MÁQUINA DE ESTADOS (WINDOWS 11)           ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+================================================================================
+                              REQUISITOS
+================================================================================
+
+1. Windows 10 ou 11
+2. Node.js 18 ou superior (https://nodejs.org/)
+3. Conexão com a internet
+
+================================================================================
+                         INSTALAÇÃO PASSO A PASSO
+================================================================================
+
+PASSO 1: INSTALAR NODE.JS (se ainda não tiver)
+----------------------------------------------
+   a) Acesse: https://nodejs.org/
+   b) Clique em "LTS" (versão recomendada)
+   c) Execute o instalador baixado
+   d) Clique "Next" em todas as telas
+   e) Marque "Automatically install necessary tools" se aparecer
+   f) Conclua a instalação
+
+PASSO 2: EXTRAIR OS ARQUIVOS
+----------------------------
+   a) Extraia o arquivo ZIP para uma pasta de sua preferência
+      Exemplo: C:\Users\SeuNome\Desktop\bot-refatorado
+
+PASSO 3: CONFIGURAR ARQUIVOS DE DADOS
+-------------------------------------
+   Edite os arquivos na pasta "data":
+
+   data\contas.txt
+   ---------------
+   Formato: email|senha
+   Exemplo:
+   meuemail@gmail.com|minhasenha123
+   outroemail@hotmail.com|outrasenha456
+
+   data\cartoes.txt
+   ----------------
+   Formato: numero|mes|ano|cvv
+   Exemplo:
+   4111111111111111|12|2025|123
+   5500000000000004|06|2026|456
+
+   data\dados.csv
+   --------------
+   Arquivo CSV com dados de pessoas (nome, CPF, idade)
+   Mantenha o arquivo que já veio no projeto
+
+PASSO 4: INSTALAR DEPENDÊNCIAS
+------------------------------
+   a) Clique duas vezes em: INSTALAR.bat
+   b) Aguarde a instalação (pode demorar alguns minutos)
+   c) Quando aparecer "INSTALAÇÃO CONCLUÍDA", pressione qualquer tecla
+
+PASSO 5: EXECUTAR O BOT
+-----------------------
+   a) Clique duas vezes em: INICIAR.bat
+   b) O navegador Chrome será aberto automaticamente
+   c) O bot começará a processar as contas
+
+================================================================================
+                          COMANDOS DURANTE EXECUÇÃO
+================================================================================
+
+   S = Pular para a próxima conta
+   Q = Sair do bot imediatamente
+   Ctrl+C = Forçar encerramento
+
+================================================================================
+                            PROTEÇÕES DO BOT v6.0
+================================================================================
+
+Este bot foi refatorado com uma MÁQUINA DE ESTADOS que garante:
+
+✓ NUNCA entra em loop infinito
+✓ Timeout global de 5 minutos por execução
+✓ Máximo de 3 reloads por cartão
+✓ Máximo de 30 verificações de resultado
+✓ Screenshots automáticos em caso de erro (pasta logs/)
+✓ Logs detalhados para debug
+
+================================================================================
+                           ESTRUTURA DE PASTAS
+================================================================================
+
+bot-refatorado/
+├── INSTALAR.bat          ← Execute primeiro
+├── INICIAR.bat           ← Execute para rodar o bot
+├── LEIA-ME.txt           ← Este arquivo
+├── index.js              ← Código principal
+├── package.json          ← Dependências
+├── config/
+│   └── settings.js       ← Configurações (timeouts, limites)
+├── data/
+│   ├── contas.txt        ← Suas contas
+│   ├── cartoes.txt       ← Seus cartões
+│   └── dados.csv         ← Dados de pessoas
+├── lib/                  ← Código do bot
+└── logs/                 ← Screenshots e logs de erro
+
+================================================================================
+                            ARQUIVOS DE SAÍDA
+================================================================================
+
+Após a execução, verifique:
+
+data\contas_premium.txt      → Contas que foram aprovadas
+data\cartoes_aprovados.txt   → Cartões que funcionaram
+data\cartoes_falhos.txt      → Cartões recusados
+logs\session_*.json          → Log detalhado da sessão
+logs\*_evidence.png          → Screenshots de erros
+
+================================================================================
+                          SOLUÇÃO DE PROBLEMAS
+================================================================================
+
+ERRO: "Node.js não encontrado"
+→ Instale o Node.js de https://nodejs.org/
+→ Reinicie o computador após instalar
+
+ERRO: "npm não é reconhecido"
+→ Reinstale o Node.js marcando a opção de adicionar ao PATH
+→ Reinicie o computador
+
+ERRO: "Falha ao instalar dependências"
+→ Verifique sua conexão com a internet
+→ Execute como Administrador (botão direito → Executar como admin)
+
+ERRO: "Timeout sem confirmação"
+→ O site pode estar lento ou bloqueando
+→ Tente novamente mais tarde
+
+BOT TRAVA OU NÃO RESPONDE:
+→ Pressione Ctrl+C para forçar encerramento
+→ Verifique os logs em logs/ para entender o que aconteceu
+
+================================================================================
+                              CONFIGURAÇÕES
+================================================================================
+
+Para ajustar timeouts e limites, edite: config\settings.js
+
+Principais configurações:
+- GLOBAL_TIMEOUT_MS: Tempo máximo total (padrão: 5 minutos)
+- MAX_PAGE_RELOADS: Máximo de reloads (padrão: 3)
+- WAIT_RESULT.timeout: Tempo para aguardar resultado (padrão: 90s)
+- WAIT_RESULT.maxPolls: Máximo de verificações (padrão: 30)
+
+================================================================================
+                                 SUPORTE
+================================================================================
+
+Em caso de dúvidas ou problemas:
+1. Verifique os logs em logs/
+2. Verifique os screenshots de erro
+3. Consulte este arquivo LEIA-ME.txt
+
+================================================================================

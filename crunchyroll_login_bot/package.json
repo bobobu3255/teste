@@ -1,0 +1,21 @@
+{
+  "name": "crunchyroll-login-bot",
+  "version": "1.0.0",
+  "description": "Bot Crunchyroll que faz login em contas existentes e testa cartões",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "start:1": "NUM_WORKERS=1 node index.js",
+    "start:3": "NUM_WORKERS=3 node index.js",
+    "start:5": "NUM_WORKERS=5 node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "keywords": ["crunchyroll", "bot", "login", "automation"],
+  "author": "",
+  "license": "ISC"
+}

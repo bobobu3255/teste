@@ -1,0 +1,19 @@
+{
+  "id": "20260515_100906",
+  "title": "oi",
+  "updated_at": "2026-05-15T10:10:39",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Pronto. Escreva sua mensagem ou use o botao + para anexar arquivos, criar arquivos e gerar imagens."
+    },
+    {
+      "role": "user",
+      "content": "oi"
+    },
+    {
+      "role": "assistant",
+      "content": "Olá! Como posso ajudar você hoje?"
+    }
+  ]
+}

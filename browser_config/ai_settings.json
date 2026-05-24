@@ -1,0 +1,13 @@
+{
+  "provider": "OpenCode Zen",
+  "ollama_url": "http://127.0.0.1:11434",
+  "llamacpp_url": "http://127.0.0.1:8080",
+  "openai_url": "http://127.0.0.1:1234",
+  "opencode_zen_url": "https://opencode.ai/zen",
+  "api_key": "sk-v5j7hq1nHXu9FKt8OSBEoumnXgDL7eGCL7JtJfRvc6OEFMH0M9floGrnoXKg7iiR",
+  "ollama_path": "C:\\Users\\gabriel\\AppData\\Local\\Programs\\Ollama\\ollama.exe",
+  "claude_path": "",
+  "opencode_path": "",
+  "model": "minimax-m2.5-free",
+  "chat_preset": "Geral"
+}

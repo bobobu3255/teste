@@ -1,0 +1,39 @@
+[
+  {
+    "name": "qwen2.5:1.5b",
+    "provider": "ollama",
+    "label": "Leve",
+    "offline": true,
+    "recommended_for": "Pendrive, PC simples e respostas rapidas",
+    "command": "ollama pull qwen2.5:1.5b",
+    "notes": "Bom primeiro modelo para testar IA local."
+  },
+  {
+    "name": "qwen2.5:3b",
+    "provider": "ollama",
+    "label": "Equilibrado",
+    "offline": true,
+    "recommended_for": "Uso geral no V11",
+    "command": "ollama pull qwen2.5:3b",
+    "notes": "Melhor qualidade que o 1.5b, ainda leve."
+  },
+  {
+    "name": "llama3.2:3b",
+    "provider": "ollama",
+    "label": "Pro",
+    "offline": true,
+    "recommended_for": "Chat geral e ajuda no projeto",
+    "command": "ollama pull llama3.2:3b",
+    "notes": "Boa alternativa local."
+  },
+  {
+    "name": "minimax-m2.5-free",
+    "provider": "opencode-zen",
+    "label": "Zen online",
+    "offline": false,
+    "recommended_for": "Claude Code/OpenCode via internet",
+    "command": "",
+    "notes": "Depende da internet e da conta/chave OpenCode."
+  }
+]
+

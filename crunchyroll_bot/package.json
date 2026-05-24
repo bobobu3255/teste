@@ -1,0 +1,30 @@
+{
+  "name": "crunchyroll-bot-paralelo",
+  "version": "6.2.0",
+  "description": "Bot Crunchyroll com processamento paralelo (3 navegadores simultâneos)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "parallel": "node index.js",
+    "single": "node index_single.js",
+    "charles": "node charles_menu.js",
+    "menu": "node charles_menu.js",
+    "test": "echo \"No tests yet\""
+  },
+  "keywords": [
+    "puppeteer",
+    "automation",
+    "parallel",
+    "workers",
+    "crunchyroll"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^21.11.0",
+    "puppeteer-core": "^21.11.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

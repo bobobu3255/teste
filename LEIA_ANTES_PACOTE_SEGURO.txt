@@ -1,0 +1,12 @@
+﻿Pacote seguro para revisao de design/interface do Telegram Pro.
+Origem: F:\GGS\bots\Telegram Pro V11
+Criado em: 2026-05-24 00:31:00
+
+Arquivos sensiveis removidos de proposito:
+- perfis de navegador, cookies e sessoes
+- bancos .db/.sqlite
+- logs, backups, caches
+- tokens, auth, senhas e arquivos .env
+- executaveis, node_modules, venv, zips/rars
+
+Use este pacote para outra IA analisar layout, telas, widgets e padroes visuais sem expor seus dados reais.

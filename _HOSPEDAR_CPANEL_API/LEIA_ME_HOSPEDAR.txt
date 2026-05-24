@@ -1,0 +1,22 @@
+COMO HOSPEDAR SEM MUDAR A APARENCIA DO SITE
+
+1. Entre no cPanel.
+2. Abra o Gerenciador de Arquivos.
+3. Entre em public_html.
+4. Envie a pasta v11 que esta aqui dentro.
+5. Nao substitua index.html, css, images, js ou admin do seu site.
+
+Depois de enviar, teste:
+
+https://bobobu.com.br/v11/api/ping.php
+
+Se aparecer ok, a API esta funcionando.
+
+IMPORTANTE:
+
+- A pasta v11 fica separada do seu site principal.
+- Seu site atual continua abrindo em https://bobobu.com.br/
+- A API fica em https://bobobu.com.br/v11/
+- O arquivo api/config.php ja esta com uma chave gerada para logs.
+- Guarde a chave no seu PC e coloque a mesma chave na configuracao de nuvem do projeto.
+
