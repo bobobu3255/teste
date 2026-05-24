@@ -228,3 +228,6 @@ archive/dev_backups/
 
 # Arquivo de pacote seguro de revisão (uma vez extraído, não comitar)
 Telegram_Pro_V*_para_design_SEGURO_*.zip
+
+# Pasta temporaria de empacotamento (ZIPs de release vivem em _release_assets/)
+_release_build/
