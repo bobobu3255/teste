@@ -1,0 +1,42 @@
+# Auto-normalizar line endings — conteúdo no repo sempre LF.
+* text=auto eol=lf
+
+# Forçar LF em código e dados textuais.
+*.py    text eol=lf diff=python
+*.pyw   text eol=lf diff=python
+*.md    text eol=lf
+*.txt   text eol=lf
+*.json  text eol=lf
+*.yml   text eol=lf
+*.yaml  text eol=lf
+*.html  text eol=lf
+*.css   text eol=lf
+*.js    text eol=lf
+*.svg   text eol=lf
+
+# Forçar CRLF em scripts Windows.
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
+*.ps1   text eol=crlf
+
+# Binários — nunca diff/merge automático.
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.webp  binary
+*.ico   binary
+*.zip   binary
+*.rar   binary
+*.7z    binary
+*.exe   binary
+*.dll   binary
+*.db    binary
+*.sqlite binary
+
+# Não exportar artefatos auxiliares em `git archive`.
+/_extract       export-ignore
+/archive        export-ignore
+/_temp          export-ignore
+/.editorconfig  export-ignore
+/.gitattributes export-ignore

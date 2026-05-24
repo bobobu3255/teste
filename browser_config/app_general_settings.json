@@ -1,0 +1,11 @@
+{
+  "workspace": "Padrao",
+  "theme": "Escuro profissional",
+  "ui_scale": 100,
+  "compact_mode": false,
+  "close_to_tray": true,
+  "auto_backup": true,
+  "data_folder": "F:\\GGS\\bots\\Telegram Pro V11",
+  "ai_provider": "Ollama",
+  "ai_model": "llama3.2:3b"
+}

@@ -1,0 +1,6 @@
+Chave API/logs para colocar no projeto:
+
+o6RirSj5DTRJ8vtFxJDzVHDwydpPqdg8HMKA1Eg8Y
+
+Nao envie este arquivo para o public_html.
+Envie somente a pasta v11 ou o arquivo ZIP que contem a pasta v11.

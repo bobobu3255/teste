@@ -1,0 +1,46 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Guard - Telegram Collector",
+  "version": "1.0.0",
+  "description": "Extensão de privacidade integrada ao Telegram Collector. Bloqueia trackers, fingerprinting e protege sua navegação.",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    },
+    "default_title": "Privacy Guard Ativo"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "20260511_082957",
+  "title": "oi",
+  "updated_at": "2026-05-11T08:30:33",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Pronto. Escreva sua mensagem ou use o botao + para anexar arquivos, criar arquivos e gerar imagens."
+    },
+    {
+      "role": "user",
+      "content": "oi"
+    },
+    {
+      "role": "assistant",
+      "content": "Oi! Como posso te ajudar?"
+    },
+    {
+      "role": "user",
+      "content": "vc consegue gera imagens?"
+    },
+    {
+      "role": "assistant",
+      "content": "Não, eu não consigo gerar imagens. Posso criar código, escrever textos, analisar arquivos, fazer pesquisas na web e executar comandos, mas não tenho a capacidade de criar ou renderizar imagens."
+    }
+  ]
+}

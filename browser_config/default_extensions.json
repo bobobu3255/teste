@@ -1,0 +1,17 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-01-12T06:17:11.393996",
+  "extensions": [
+    {
+      "id": "privacy_guard_builtin",
+      "name": "Privacy Guard",
+      "source": "/home/ubuntu/telegram_collector_project/telegram_collector_v10/browser_extensions/privacy_guard",
+      "source_type": "builtin",
+      "local_path": "/home/ubuntu/telegram_collector_project/telegram_collector_v10/browser_extensions/privacy_guard",
+      "enabled": true,
+      "description": "Extensão de privacidade integrada. Bloqueia trackers, fingerprinting e protege sua navegação.",
+      "added_at": "2026-01-12T06:17:11.393974",
+      "builtin": true
+    }
+  ]
+}

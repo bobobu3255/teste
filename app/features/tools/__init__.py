@@ -1,0 +1,1 @@
+"""Ferramentas integradas do aplicativo."""

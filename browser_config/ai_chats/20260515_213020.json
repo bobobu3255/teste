@@ -1,0 +1,19 @@
+{
+  "id": "20260515_213020",
+  "title": "fala uma curiosidade aleatoria",
+  "updated_at": "2026-05-15T21:31:00",
+  "messages": [
+    {
+      "role": "assistant",
+      "content": "Pronto. Escreva sua mensagem ou use o botao + para anexar arquivos, criar arquivos e gerar imagens."
+    },
+    {
+      "role": "user",
+      "content": "fala uma curiosidade aleatoria"
+    },
+    {
+      "role": "assistant",
+      "content": "As zebras têm listras pretas e brancas porque seus pelos pretos absorvem mais calor enquanto os brancos refletem a luz, funcionando como um sistema de regulação térmica natural. Além disso, cada zebras tem um padrão de listras único, como uma impressão digital."
+    }
+  ]
+}

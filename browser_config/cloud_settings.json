@@ -1,0 +1,8 @@
+{
+  "enabled": false,
+  "base_url": "https://bobobu.com.br/v11",
+  "api_key": "",
+  "send_logs": false,
+  "check_updates": true,
+  "sync_ai_catalog": true
+}
